@@ -2,7 +2,6 @@ import "./App.css";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import DisplayData from "./DisplayData";
 //ApolloClient => We use this to connect an api
-
 function App() {
   const client = new ApolloClient({
     cache: new InMemoryCache(),
