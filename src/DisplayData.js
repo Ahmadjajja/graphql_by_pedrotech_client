@@ -70,7 +70,7 @@ function DisplayData() {
   if (data) {
     console.log("data", data.users);
   }
-  if (error) {
+  if (error) { 
     console.error(error);
   }
   return (
